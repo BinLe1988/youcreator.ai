@@ -1,0 +1,8 @@
+{
+  "/profile/page": "app/profile/page.js",
+  "/storage-summary/page": "app/storage-summary/page.js",
+  "/storage-check/page": "app/storage-check/page.js",
+  "/api/user/profile/route": "app/api/user/profile/route.js",
+  "/media/page": "app/media/page.js",
+  "/page": "app/page.js"
+}

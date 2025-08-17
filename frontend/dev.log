@@ -1,0 +1,183 @@
+
+> youcreator-frontend@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+   ▲ Next.js 14.0.3
+   - Local:        http://localhost:3001
+   - Environments: .env.local
+
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 1243ms
+ ○ Compiling /art-creator ...
+ ⚠ ./src/app/art-creator/page.tsx
+Attempted import error: 'Landscape' is not exported from '__barrel_optimize__?names=Download,Image,Landscape,Palette,RefreshCw,Sparkles,User,Users!=!lucide-react' (imported as 'Landscape').
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+
+./src/app/art-creator/page.tsx
+Attempted import error: 'Landscape' is not exported from '__barrel_optimize__?names=Download,Image,Landscape,Palette,RefreshCw,Sparkles,User,Users!=!lucide-react' (imported as 'Landscape').
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at page.tsx:220.
+    at ArtCreatorPage (webpack-internal:///(ssr)/./src/app/art-creator/page.tsx:35:86)
+    at StaticGenerationSearchParamsBailoutProvider (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js:15:11)
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:343:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:352:11)
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:343:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:352:11)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:165:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:436:13)
+    at Lazy
+    at Lazy
+    at /Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:380095
+    at /Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:380095
+    at ServerInsertedHTMLProvider (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:38:17348)
+ ⨯ Internal error: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43345)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at aC (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at a_ (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at aC (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at aC (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7874)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at aw (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41216)
+    at e (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at ak (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at av (/Users/richardl/projects/youcreator.ai/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+ ⚠ ./src/app/art-creator/page.tsx
+Attempted import error: 'Landscape' is not exported from '__barrel_optimize__?names=Download,Image,Landscape,Palette,RefreshCw,Sparkles,User,Users!=!lucide-react' (imported as 'Landscape').
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+
+./src/app/art-creator/page.tsx
+Attempted import error: 'Landscape' is not exported from '__barrel_optimize__?names=Download,Image,Landscape,Palette,RefreshCw,Sparkles,User,Users!=!lucide-react' (imported as 'Landscape').
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+ ⚠ ./src/app/art-creator/page.tsx
+Attempted import error: 'Landscape' is not exported from '__barrel_optimize__?names=Download,Image,Landscape,Palette,RefreshCw,Sparkles,User,Users!=!lucide-react' (imported as 'Landscape').
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+
+./src/app/art-creator/page.tsx
+Attempted import error: 'Landscape' is not exported from '__barrel_optimize__?names=Download,Image,Landscape,Palette,RefreshCw,Sparkles,User,Users!=!lucide-react' (imported as 'Landscape').
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+ ⨯ ./src/app/art-creator/page.tsx
+Error: 
+  [31mx[0m Unexpected token `Layout`. Expected jsx identifier
+     ,-[[36;1;4m/Users/richardl/projects/youcreator.ai/frontend/src/app/art-creator/page.tsx[0m:185:1]
+ [2m185[0m |   };
+ [2m186[0m | 
+ [2m187[0m |   return (
+ [2m188[0m |     <Layout>
+     : [31;1m     ^^^^^^[0m
+ [2m189[0m |       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 p-4">
+ [2m190[0m |       <div className="max-w-7xl mx-auto">
+ [2m191[0m |         {/* 页面标题 */}
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+ ⨯ ./src/app/art-creator/page.tsx
+Error: 
+  [31mx[0m Unexpected token `Layout`. Expected jsx identifier
+     ,-[[36;1;4m/Users/richardl/projects/youcreator.ai/frontend/src/app/art-creator/page.tsx[0m:185:1]
+ [2m185[0m |   };
+ [2m186[0m | 
+ [2m187[0m |   return (
+ [2m188[0m |     <Layout>
+     : [31;1m     ^^^^^^[0m
+ [2m189[0m |       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 p-4">
+ [2m190[0m |       <div className="max-w-7xl mx-auto">
+ [2m191[0m |         {/* 页面标题 */}
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/art-creator/page.tsx
+[?25h

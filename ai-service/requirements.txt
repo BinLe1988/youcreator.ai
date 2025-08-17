@@ -1,0 +1,66 @@
+# 基础框架
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# AI模型和深度学习
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+transformers>=4.35.0
+diffusers>=0.24.0
+accelerate>=0.24.0
+xformers>=0.0.22
+
+# 图像处理
+Pillow>=10.0.0
+opencv-python>=4.8.0
+imageio>=2.31.0
+
+# 音频处理
+librosa>=0.10.0
+soundfile>=0.12.0
+audiocraft>=1.0.0
+
+# 图像生成
+stability-sdk>=0.8.0
+
+# 音乐生成
+audiocraft>=1.0.0
+
+# 图像理解
+sentence-transformers>=2.2.0
+
+# 数据处理
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# HTTP客户端
+httpx>=0.25.0
+aiohttp>=3.9.0
+requests>=2.31.0
+
+# 工具库
+python-dotenv>=1.0.0
+pyyaml>=6.0
+tqdm>=4.66.0
+
+# 日志和监控
+loguru>=0.7.0
+
+# 开发工具
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# 可选：GPU加速
+# nvidia-ml-py3>=7.352.0  # 如果使用NVIDIA GPU
+
+# 可选：模型优化
+# optimum>=1.14.0
+# onnx>=1.15.0
+# onnxruntime>=1.16.0
